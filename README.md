@@ -67,18 +67,30 @@ O Grant Monitor é um sistema Python que automatiza a busca por editais de pesqu
 
 ## 🚀 Instalação
 
+### Via pip (recomendado)
+
 ```bash
 # Clone o repositório
 git clone https://github.com/fccoelho/grant-monitor.git
 cd grant-monitor
 
-# Crie um ambiente virtual (recomendado)
+# Instale com pip (usa pyproject.toml)
+pip install -e .
+
+# Ou com uv (mais rápido)
+uv pip install -e .
+```
+
+### Ambiente virtual (opcional)
+
+```bash
+# Crie um ambiente virtual
 python3 -m venv venv
 source venv/bin/activate  # Linux/Mac
 # ou: venv\Scripts\activate  # Windows
 
-# Instale dependências
-pip install -r requirements.txt
+# Instale no modo de desenvolvimento
+pip install -e ".[dev]"
 ```
 
 ### Dependências
@@ -141,7 +153,7 @@ python3 scripts/check_deadlines.py --days 30
 grant-monitor/
 ├── README.md                 # Este arquivo
 ├── LICENSE                   # Licença MIT
-├── requirements.txt          # Dependências Python
+├── pyproject.toml            # Configuração do projeto
 ├── SKILL.md                  # Documentação da skill
 ├── references/
 │   ├── keywords.txt          # Keywords de busca (~65 termos)
