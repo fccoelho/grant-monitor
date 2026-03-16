@@ -68,7 +68,7 @@ class MOSTScraper(BaseScraper):
     """Scraper for MOST (Ministry of Science and Technology of China)"""
     
     BASE_URL = "http://www.most.gov.cn/eng/"
-    PROGRAMS_URL = "http://www.most.gov.cn/eng/programs/"
+    PROGRAMS_URL = "https://en.most.gov.cn/index.html"
     
     def search(self, keywords: List[str]) -> List[GrantOpportunity]:
         """Search MOST funding opportunities"""
