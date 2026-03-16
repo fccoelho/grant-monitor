@@ -1,0 +1,94 @@
+# Keywords for grant monitoring
+# One keyword/phrase per line
+# Lines starting with # are ignored
+
+dengue
+epidemiologia
+epidemiology
+arboviroses
+arboviral
+arbovirology
+saúde pública
+public health
+doenças infecciosas
+infectious diseases
+vigilância epidemiológica
+disease surveillance
+modelagem matemática
+mathematical modeling
+sistemas de informação em saúde
+health information systems
+zika
+chikungunya
+febre amarela
+yellow fever
+malária
+malaria
+bioestatística
+biostatistics
+data science
+ciência de dados
+machine learning
+aprendizado de máquina
+forecasting
+previsão
+surveillance
+transmissão de doenças
+disease transmission
+
+# Global Health
+global health
+saúde global
+international health
+one health
+planetary health
+health systems
+sistemas de saúde
+health policy
+políticas de saúde
+digital health
+saúde digital
+mHealth
+telemedicine
+telemedicina
+
+# AI for Science
+artificial intelligence
+inteligência artificial
+AI for science
+AI for health
+machine learning for healthcare
+deep learning
+redes neurais
+neural networks
+large language models
+LLM
+computational biology
+biologia computacional
+bioinformatics
+bioinformática
+scientific computing
+computação científica
+high performance computing
+HPC
+data-driven science
+ciência baseada em dados
+predictive modeling
+modelagem preditiva
+simulation
+simulação
+
+# International Cooperation (especially for China/Belt and Road)
+international cooperation
+cooperacão internacional
+belt and road
+一带一路 (yidai yilu)
+south-south cooperation
+global south
+developing countries
+países em desenvolvimento
+tropical diseases
+doenças tropicais
+emerging infectious diseases
+doenças infecciosas emergentes
+
