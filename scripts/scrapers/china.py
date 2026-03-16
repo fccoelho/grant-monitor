@@ -118,7 +118,7 @@ class MOSTScraper(BaseScraper):
 class CASScraper(BaseScraper):
     """Scraper for CAS (Chinese Academy of Sciences)"""
     
-    BASE_URL = "https://www.cas.cn/eng/"
+    BASE_URL = "https://english.cas.cn"
     
     def search(self, keywords: List[str]) -> List[GrantOpportunity]:
         """Search CAS funding opportunities"""
